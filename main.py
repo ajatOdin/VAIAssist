@@ -2,7 +2,29 @@
 #TODO:
 #Change to 3.6-7
 
+'''
+Conceptualize: 
 
+1:
+
+
+Reinforcement Learning Algorithm
+1. How to parse the showing of an action
+1a. How to request that action
+1b. Storage of memory of request and action
+
+2. Take command from input
+2a. Select via memory (nn) which action is most correct for the memory
+2b. Conduct action
+
+3. Parse feedback
+3a. Update memory appropriately
+3b. Action Loop
+
+
+
+
+'''
 
 
 
@@ -47,6 +69,8 @@ def myCommand():
         command = myCommand();
     return command
 def assistant(command):
+    
+    #This is a very finite list of things to do. See above for concept sketch
     "if statements for executing commands"
 #open subreddit Reddit
     if 'open reddit' in command:
